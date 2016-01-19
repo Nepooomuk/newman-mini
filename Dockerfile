@@ -4,7 +4,8 @@ RUN apk update && apk upgrade
 RUN apk add bash
 RUN apk add nodejs
 RUN npm install -g newman@beta
-RUN chmod 777 /opt
+RUN mkdir /home/newman
+RUN chmod 777 /home/newman
 
 EXPOSE 80 443
 CMD ["newman"]
