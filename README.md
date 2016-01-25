@@ -10,3 +10,5 @@ Some examples:
 		docker run -vit /Users/robin/collection_folder:/home/newman/ nepooomuk/newman-mini newman --folder OrderService -c /home/newman/Api-Monitoring.json.postman_collection --environment /home/newman/Api-Enviroment.postman_environment --pretty --whiteScreen
 
 For more details see: https://github.com/postmanlabs/newman
+
+###upgraded to latest version 25.01.2016
