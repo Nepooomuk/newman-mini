@@ -1,4 +1,4 @@
-FROM alpine:3.3
+FROM alpine
 MAINTAINER Robin N. Mai <robin.nepomuk.mai@me.com>
 RUN apk update && apk upgrade
 RUN apk add bash
